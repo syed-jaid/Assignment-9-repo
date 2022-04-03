@@ -1,0 +1,37 @@
+.sub-div {
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80PX;
+}
+
+/* home title */
+.home-title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.home-title-color {
+    color: rgba(37, 204, 255, 0.73);
+}
+
+/* home image */
+.home-img {
+    width: 75%;
+    border-radius: 16px;
+}
+
+/* home button */
+.home-btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    background-color: rgba(37, 204, 255, 0.73);
+    font-size: larger;
+    font-weight: 600;
+    color: aliceblue;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow: 1px 1px 20px rgba(141, 228, 255, 0.73);
+}
