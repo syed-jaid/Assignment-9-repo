@@ -7,7 +7,7 @@ const Home = () => {
         <div className='container'>
             <Nav></Nav>
             {/* main prat */}
-            <div className='sub-div d-flex'>
+            <div className='sub-div d-md-flex'>
                 {/* home title  */}
                 <div >
                     <h1 className='home-title home-title-color'>Find The Best Car</h1>
