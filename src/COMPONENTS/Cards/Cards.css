@@ -6,6 +6,11 @@
     border-radius: 20px;
 }
 
+.card-name {
+    color: rgba(15, 150, 190, 0.73);
+    font-weight: 500;
+}
+
 .rating-start {
     color: gold;
 }

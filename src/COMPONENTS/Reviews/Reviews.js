@@ -8,7 +8,7 @@ const Reviews = () => {
     return (
         <div>
             <Nav></Nav>
-            <h1> reviews</h1>
+            <h1 className='my-5 Review-title'> Reviews</h1>
             <div className='all-card-div mb-5'>
                 {
                     review.map(data => <Cards key={data.id} reviews={data}></Cards>)

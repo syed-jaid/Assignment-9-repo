@@ -15,3 +15,8 @@
 .card-imgs {
     border-radius: 20px;
 }
+
+.Review-title {
+    color: rgba(37, 204, 255, 0.73);
+    font-weight: 600;
+}

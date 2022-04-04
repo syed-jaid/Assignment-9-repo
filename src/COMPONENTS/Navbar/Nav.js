@@ -6,7 +6,7 @@ const Nav = () => {
         <div className='nav-main-div'>
             {/* all links for route */}
             <Link className='nav-links' to='/'>Home</Link>
-            <Link className='nav-links' to='/reviews'>Reviews</Link>
+            <Link className='nav-links' to='/reviews'>All Reviews</Link>
             <Link className='nav-links' to='/dashboard'>Dashborad</Link>
             <Link className='nav-links' to='/blogs'>Blogs</Link>
         </div>

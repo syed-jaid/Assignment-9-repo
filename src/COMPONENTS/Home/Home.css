@@ -57,3 +57,8 @@
     box-shadow: 1px 1px 20px rgba(141, 228, 255, 0.73);
     text-decoration: none;
 }
+
+.Review-title {
+    color: rgba(37, 204, 255, 0.73);
+    font-weight: 600;
+}
