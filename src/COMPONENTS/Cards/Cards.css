@@ -1,3 +1,11 @@
 .card {
     width: 18rem;
 }
+
+.card-imgs {
+    border-radius: 20px;
+}
+
+.rating-start {
+    color: gold;
+}

@@ -1,17 +1,19 @@
 import React from 'react';
-import './Cards.css'
+import './Cards.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShareFromSquare, faStar } from '@fortawesome/free-solid-svg-icons'
 const Cards = ({ reviews }) => {
     const { name, reting, discription, img } = reviews
 
     return (
         <div class="card mx-auto ">
-            <img src={img} class="card-img-top" alt="..." />
+            <img className='card-img-top card-imgs' src={img} alt="..." />
             <div class="card-body">
-                <h4>Name: {name}</h4>
-                <p class="card-text">{discription}</p>
-                <p>{reting}</p>
+                <h4 className='mb-4'>Name: {name}</h4>
+                <p class="card-text">{discription.slice(0, 80)}</p>
+                <p className='mt-4'>Rating :{reting} <FontAwesomeIcon className='rating-start' icon={faStar}></FontAwesomeIcon><FontAwesomeIcon className='rating-start' icon={faStar}></FontAwesomeIcon><FontAwesomeIcon className='rating-start' icon={faStar}></FontAwesomeIcon><FontAwesomeIcon className='rating-start' icon={faStar}></FontAwesomeIcon><FontAwesomeIcon className='rating-start' icon={faStar}></FontAwesomeIcon></p>
             </div>
-        </div>
+        </div >
     );
 };
 

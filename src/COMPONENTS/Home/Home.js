@@ -2,9 +2,13 @@ import React from 'react';
 import './Home.css'
 import Nav from '../Navbar/Nav';
 import img from '../img/mfile_1628229_1_L_20220110223616.jpg'
+import Cards from '../Cards/Cards';
+import Data from '../../get-data/Data';
+import { Link } from 'react-router-dom';
 const Home = () => {
+    const [review] = Data()
     return (
-        <div className='container'>
+        <div className='container mb-5'>
             <Nav></Nav>
             {/* main prat */}
             <div className='sub-div d-md-flex'>
@@ -20,6 +24,11 @@ const Home = () => {
             </div>
             {/* review part */}
             <h1>review all</h1>
+            <div className='all-card-div my-5'>
+                {review.slice(0, 3).map(data => <Cards key={data.id} reviews={data}></Cards>)}
+            </div>
+            {/* all reviews button */}
+            <Link className='review-show-button' to='/reviews'>Show All Reviews</Link>
         </div>
     );
 };

@@ -35,3 +35,24 @@
     border-radius: 14px;
     box-shadow: 1px 1px 20px rgba(141, 228, 255, 0.73);
 }
+
+/* review cards  */
+.all-card-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+
+.review-show-button {
+    margin-top: 40px;
+    padding: 10px 40px;
+    background-color: rgba(37, 204, 255, 0.73);
+    font-size: larger;
+    font-weight: 600;
+    color: aliceblue;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow: 1px 1px 20px rgba(141, 228, 255, 0.73);
+    text-decoration: none;
+}
