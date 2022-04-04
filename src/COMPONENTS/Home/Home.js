@@ -23,8 +23,9 @@ const Home = () => {
                 <img className='home-img' src={img} alt="" />
             </div>
             {/* review part */}
-            <h1>review all</h1>
+            <h1 className='mt-5'>Review by customr</h1>
             <div className='all-card-div my-5'>
+
                 {review.slice(0, 3).map(data => <Cards key={data.id} reviews={data}></Cards>)}
             </div>
             {/* all reviews button */}
